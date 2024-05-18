@@ -1,11 +1,19 @@
-#MY PATHS
+# MY PATHS
 
-#GO
-export PATH=$PATH:/usr/local/go/bin
+path+=/usr/local/go/bin
+path+=/opt/nvim-linux64/bin
 
+export PATH
 
+# ALIAS
 
-# If you come from bash you might have to change your $PATH.
+alias vim="nvim"
+alias vi="nvim"
+alias v="nvim"
+
+alias t="tmux"
+
+#If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
