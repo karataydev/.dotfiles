@@ -1,0 +1,4 @@
+{
+  "lazy.nvim": { "branch": "main", "commit": "5d29ffeaa0f2d91f1dfbc21943d19a11e59a6fc6" },
+  "oh-lucy.nvim": { "branch": "main", "commit": "b53f8c8735ca7e788994147bfa10eb04331eaf7c" }
+}
