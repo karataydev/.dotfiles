@@ -2,6 +2,8 @@
 
 path+=/usr/local/go/bin
 path+=/opt/nvim-linux64/bin
+path+=$HOME/.local/kitty.app/bin
+
 
 export PATH
 
@@ -114,3 +116,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+# START TMUX
+
+
