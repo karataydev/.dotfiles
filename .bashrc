@@ -118,3 +118,5 @@ fi
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
 exec zsh
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

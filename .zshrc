@@ -121,3 +121,5 @@ source $ZSH/oh-my-zsh.sh
 # START TMUX
 
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
