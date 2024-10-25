@@ -33,7 +33,7 @@ vim.keymap.set('n', '<leader>n', ':NvimTreeToggle<CR>', { noremap = true })
 local on_attach = function ()
 	vim.keymap.set("n", "K", vim.lsp.buf.hover, {buffer=0})
 	vim.keymap.set("n", "gd", vim.lsp.buf.definition, {buffer=0})
-	vim.keymap.set("n", "gi", vim.lsp.buf.implementation, {buffer=0})
+	vim.keymap.set("n", "gI", vim.lsp.buf.implementation, {buffer=0})
 	vim.keymap.set("n", "gt", vim.lsp.buf.type_definition, {buffer=0})
 end
 
@@ -61,11 +61,8 @@ require("lazy").setup({
 
 	-- colorscheme
 	{
-		"Yazeed1s/oh-lucy.nvim",
-		priority = 1000, -- make sure to load this before all the other start plugins
-		config = function ()
-			vim.cmd([[colorscheme oh-lucy]])
-		end,
+  		"olimorris/onedarkpro.nvim",
+ 		priority = 1000, -- Ensure it loads first
 	},
 
 	-- nvim tree
@@ -104,7 +101,7 @@ require("lazy").setup({
 			local lspconfig = require("lspconfig")
 			require("mason").setup()
 			require("mason-lspconfig").setup({
-				ensure_installed = {"lua_ls", "gopls"}
+				ensure_installed = {"lua_ls", "gopls", "java_language_server"}
 			})
 			local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
@@ -122,6 +119,11 @@ require("lazy").setup({
 			})
 
 			lspconfig.gopls.setup({
+				capabilities = capabilities,
+				on_attach = on_attach
+			})
+
+			lspconfig.java_language_server.setup({
 				capabilities = capabilities,
 				on_attach = on_attach
 			})
