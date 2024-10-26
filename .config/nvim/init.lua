@@ -101,7 +101,7 @@ require("lazy").setup({
 			local lspconfig = require("lspconfig")
 			require("mason").setup()
 			require("mason-lspconfig").setup({
-				ensure_installed = {"lua_ls", "gopls", "java_language_server"}
+				ensure_installed = {"lua_ls", "gopls", "jdtls"}
 			})
 			local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
@@ -123,7 +123,7 @@ require("lazy").setup({
 				on_attach = on_attach
 			})
 
-			lspconfig.java_language_server.setup({
+			lspconfig.jdtls.setup({
 				capabilities = capabilities,
 				on_attach = on_attach
 			})

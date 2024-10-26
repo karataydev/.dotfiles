@@ -3,7 +3,7 @@
 path+=/usr/local/go/bin
 path+=/opt/nvim-linux64/bin
 path+=$HOME/.local/kitty.app/bin
-
+path+=$HOME/.local/share/jdtls/bin
 
 export PATH
 
@@ -121,3 +121,9 @@ source $ZSH/oh-my-zsh.sh
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+export EDITOR="nvim"

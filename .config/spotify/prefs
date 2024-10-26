@@ -1,0 +1,12 @@
+autologin.username="emrem4rff"
+autologin.saved_credentials="{\"emrem4rff\":[\"emrem4rff\",\"rfyJCkjBVL6wukvlRKyXcTb2G/CZq3yWyz8dB/0b/gh+Fj37GyIWyzoE5nRfsYJvAOyan0bFQzAQLaMvp0mQYcseDt9MsELYPffHnSaXupE202k1+mWSIQYofchT6qgpY1mv0iaGREwMMdsheEq16ZIjk8534zYXejzJ8jOUI5iaK0GuFUMKX8lhiEZisyUko28uhTra5SwhcioeeXcM4jyWG/8zHkC/fwypqQx6JARtgY2BnsoqlbDaCvOUkNTrd0hOoHM7dp7rXdsp/HgYulEjNtL8C6hU+ol6kj4bYkM=\"]}"
+autologin.blob="rfyJCkjBVL6wukvlRKyXcTb2G/CZq3yWyz8dB/0b/gh+Fj37GyIWyzoE5nRfsYJvAOyan0bFQzAQLaMvp0mQYcseDt9MsELYPffHnSaXupE202k1+mWSIQYofchT6qgpY1mv0iaGREwMMdsheEq16ZIjk8534zYXejzJ8jOUI5iaK0GuFUMKX8lhiEZisyUko28uhTra5SwhcioeeXcM4jyWG/8zHkC/fwypqQx6JARtgY2BnsoqlbDaCvOUkNTrd0hOoHM7dp7rXdsp/HgYulEjNtL8C6hU+ol6kj4bYkM="
+es.send-on-startup=true
+autologin.canonical_username="emrem4rff"
+app.enable-chrome-runtime=true
+app.window.position.saved=true
+app.window.position.height=1055
+storage.last-location="/home/karataydev/.cache/spotify/Storage"
+app.window.state.saved=true
+app.window.position.width=1920
+app.last-launched-version="1.2.45.454.gc16ec9f6"

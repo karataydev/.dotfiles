@@ -1,0 +1,1 @@
+bindsym $mod+Return exec $HOME/.local/kitty.app/bin/kitty
